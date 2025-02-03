@@ -17,9 +17,9 @@ st.markdown('# FIFA 2023 OFICIAL DATASET ⚽')
 
 st.sidebar.markdown("Desenvolvido por Rayson")
 
-btn = st.button("Acesso os dados no Kaggle")
-if btn:
-    webbrowser.open_new_tab("https://www.kaggle.com/code/stefanoleone992/ea-sports-fc-24-players-lineup-visualizations")
+btn = st.link_button(
+    "Acesse os dados no Kaggle",
+    'https://www.kaggle.com/code/stefanoleone992/ea-sports-fc-24-players-lineup-visualizations')
     
 st.markdown(
     """
